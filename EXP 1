@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+</head>
+<body>
+  <h1>VINJAM DEEPTHI</h1>
+  <h2>Frontend Developer</h2>
+  <p>
+    I am a frontend developer passionate about building
+    user-friendly web applications.  
+    This project marks my first commit in Git for setting up version control.
+  </p>
+</body>
+</html>
