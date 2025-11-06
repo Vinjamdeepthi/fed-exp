@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Arrays and Methods</title>
+</head>
+<body>
+    <h1>Javascript Arrays and Methods</h1>
+    <script>
+        document.write("<h2>Creating Arrays</h2>");
+        let fruits = ["Apple","Banana","Mango"];
+        document.write(typeof fruits);
+        document.write("Fruits: "+fruits+"<br><br>");
+
+        let value = [10,20,30,40,50];
+        console.table(value);
+
+        let mixed = ["fedf","205","c521a",{name:"sri"}];
+        document.write("Mixed values: "+ mixed + "<br><br>");
+        //operations on existing array:push
+        fruits.push("orange");
+        document.write(fruits+"<br><br>");
+        //to remove
+        document.write("Removing the last element in the array:","<br><br>");
+        fruits.pop();
+        document.write(fruits+"<br><br>");
+
+        let mylist = fruits.toString();
+        document.write(mylist + "<br><br>");
+
+        document.write("<h2>shift() - Remove the first element </h2>");
+        fruits.shift();
+        document.write(fruits + "<br><br>");
+    </script>
+</body>
+</html>
